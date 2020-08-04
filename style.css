@@ -21,9 +21,6 @@ section{
 	margin-left: 22vw;
 
 }
-.introHeader{
-
-}
 .introcontainer{
 	width: 95vw;
 	display: flex;
@@ -32,9 +29,37 @@ section{
 .introImage{
 	width: 50%;
 }
+
+/*animation for fading in*/
+@keyframes introimg{
+	0% {
+		transform: translate(-500%,0);
+		opacity: 0%;
+	}
+	60%{
+		opacity: 20%;
+	}
+	100%{
+
+	}
+}
+@keyframes introopt{
+	0% {
+		transform: translate(500%,0);
+		opacity: 0%;
+	}
+	60%{
+		opacity: 20%;
+	}
+	100%{
+
+	}
+}
+
 .welcomeImg{
 	max-width: 50vw;
 	max-height: auto;
+	animation: 1.5s introimg;
 }
 
 .introOptions{
@@ -42,6 +67,7 @@ section{
 	display: flex;
 	flex-direction: column;
 	font-family: 'Josefin Sans', sans-serif;
+	animation: 1.5s introopt;
 }
 .welcomeMsg{
 	text-align: center;
@@ -53,6 +79,7 @@ section{
 	background-color: pink;
 	width: 60%;
 	height: 25%;
+	transition: 0.2s ease;
 }
 .optionText{
 	text-align: center;
@@ -63,9 +90,21 @@ section{
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 }
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
+}
+.option:hover{
+	width: 70%;
+	background-color: #d6c3d3;
+	transition: 0.2s ease;
+}
+
+
+
+footer{
+	color: gray;
 }
 
 

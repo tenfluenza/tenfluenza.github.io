@@ -64,13 +64,23 @@ section{
 .socialmediaLinks{
 	padding-top: 2rem;
 	text-align: center;
+	height: 10%;
 }
 .icon{
 	height: 2rem;
 	width: auto;
 	padding: 1rem;
-
+	transition: 0.2s ease;
+	filter: invert(83%) sepia(0%) saturate(976%) hue-rotate(121deg) brightness(88%) contrast(84%);
 }
+.icon:hover{
+	transition: 0.2s ease;
+	height: 2.5rem;
+	width: auto;
+	z-index: 1;
+	filter: invert(36%) sepia(39%) saturate(6942%) hue-rotate(233deg) brightness(104%) contrast(85%);
+}
+
 .introOptions{
 	width: 50%;
 	display: flex;

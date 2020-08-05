@@ -61,7 +61,16 @@ section{
 	max-height: auto;
 	animation: 1.5s introimg;
 }
+.socialmediaLinks{
+	padding-top: 2rem;
+	text-align: center;
+}
+.icon{
+	height: 2rem;
+	width: auto;
+	padding: 1rem;
 
+}
 .introOptions{
 	width: 50%;
 	display: flex;

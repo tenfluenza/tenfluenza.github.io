@@ -41,11 +41,17 @@ body{
 	width: 20%;
 	position: fixed;
 	animation: 0.5s menu;
+	-webkit-animation:0.5s menu;
+	-moz-animation: 0.5s menu;
+	-ms-animation: 0.5s menu;
 }
 .mainContent{
 	margin-left: 21%;
 	width: 80%;
 	animation: 1s mainContent;
+	-webkit-animation:1s mainContent;
+	-moz-animation:1s mainContent;
+	-ms-animation:1s mainContent;
 	padding-left: 5%;
 }
 /*animation for fading in*/

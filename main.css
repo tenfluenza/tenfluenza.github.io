@@ -1,6 +1,12 @@
 body{
 
 }
+
+
 footer{
 	color: gray;
+	font-size: 1rem;
+	text-align: left;
+	font-family: arial;
+
 }

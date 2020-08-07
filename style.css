@@ -120,9 +120,12 @@ a:hover, a:visited, a:link, a:active
 	transition: 0.2s ease;
 }
 
-
 footer{
 	color: gray;
+	font-size: 1rem;
+	text-align: left;
+	font-family: arial;
+
 }
 
 

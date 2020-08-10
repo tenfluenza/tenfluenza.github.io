@@ -11,7 +11,8 @@ body{
 	margin-top: 1.5rem;
 	margin-left: 1.5vw;
 	font-family: 'Josefin Sans', sans-serif;
-
+/*  font-family: 'Arvo', serif;
+    font-family: 'Josefin Sans', sans-serif;*/
 }
 .navBack{
 	font-size:1rem;
@@ -79,6 +80,7 @@ body{
 
 	}
 }
+
 .menuOption{
 	height: 6vh;
 	width: 100%;
@@ -123,6 +125,13 @@ body{
 .imgHolder50{
 	width: 50%;
 }
+
+.contentText{
+	font-size: 1.5rem;
+	color: #313639;
+	font-family: 'Arvo', serif;
+}
+
 img{
 	object-fit: cover;
 	max-width: 70vw;

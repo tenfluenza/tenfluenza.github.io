@@ -47,13 +47,14 @@ body{
 	-ms-animation: 0.5s menu;
 }
 .mainContent{
-	margin-left: 21%;
-	width: 80%;
+	margin-left: 22%;
+	width: 70%;
 	animation: 1s mainContent;
 	-webkit-animation:1s mainContent;
 	-moz-animation:1s mainContent;
 	-ms-animation:1s mainContent;
 	padding-left: 5%;
+	/*background-color: red;*/
 }
 /*animation for fading in*/
 @keyframes menu{
@@ -114,6 +115,12 @@ body{
 	width: auto;
 	filter: invert(36%) sepia(39%) saturate(6942%) hue-rotate(233deg) brightness(104%) contrast(85%);
 }
+.menuImage{
+	width: 90%;
+	height: auto;
+	padding-left: 3rem;
+	align-content: right;
+}
 .imageHolder{
 	padding-left:2rem;
 	padding-right: 2rem;
@@ -127,6 +134,7 @@ body{
 }
 
 .contentText{
+	margin-top: 1.3rem;
 	font-size: 1.5rem;
 	color: #313639;
 	font-family: 'Arvo', serif;
